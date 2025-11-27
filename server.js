@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Handle GET requests (display the form)
 app.get('/', (req, res) => {
-    const checkResult = `<span style='color:red'> Try the magic word "Fred"</span>`;
+    const checkResult = `<span style='color:red'> Try the magic word "fred"</span>`;
     // Send the HTML page
     res.send(`
         <!DOCTYPE html>
@@ -45,7 +45,7 @@ app.post('/', (req, res) => {
     if (myCheck) {
         checkResult = `<b style='color:green'> Cool! </b>`;
     } else {
-        checkResult = `<span style='color:red'> Try the magic word "Fred"</span>`;
+        checkResult = `<span style='color:red'> Try the magic word "fred"</span>`;
     }
     
     // Re-send the HTML page with the new result
