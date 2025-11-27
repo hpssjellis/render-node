@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Handle GET requests (display the form)
 app.get('/', (req, res) => {
-    const checkResult = `<span style='color:red'> Try the magic word</span>`;
+    const checkResult = `<span style='color:red'> Try the magic word "Fred"</span>`;
     // Send the HTML page
     res.send(`
         <!DOCTYPE html>
