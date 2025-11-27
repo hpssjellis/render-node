@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
             <title>Browser Title</title>
         </head>
         <body>
-            <h3 align=center>T2A06-node-codesandbox</h3>
+            <h3 align=center>Render-node-backend</h3>
             <form action="/" method="post">
                 <label for="myText01">Enter Text:</label>
                 <input type="text" id="myText01" name="myText01">
