@@ -45,7 +45,7 @@ app.post('/', (req, res) => {
     if (myCheck) {
         checkResult = `<b style='color:green'> Cool! </b>`;
     } else {
-        checkResult = `<span style='color:red'> Try the magic word</span>`;
+        checkResult = `<span style='color:red'> Try the magic word "Fred"</span>`;
     }
     
     // Re-send the HTML page with the new result
